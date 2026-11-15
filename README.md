@@ -3,8 +3,6 @@
 An offline-first Android app that looks at a photo of a crop leaf, names the disease (or says it is not sure), and tells
 the farmer what to do today, what it costs, and when to check again. Hindi and English. The core features need no internet.
 
-> CropDoctor gives first-level advice and can be wrong. Always confirm with a Krishi Vigyan Kendra (KVK) or agriculture
-> officer and follow the dose printed on the product label.
 
 ## Features
 
@@ -15,7 +13,7 @@ the farmer what to do today, what it costs, and when to check again. Hindi and E
 - **Ask**: type or speak questions; answered from the saved guide, optionally with an online AI helper.
 - **Fields and trend**: group scans by field and see whether it is getting better or worse.
 - **Share** a one-page PDF report, and set a **re-check reminder** that works offline.
-- **Spray weather** card (optional, online).
+- **Spray weather** card that tells us if the current weather conditions are suitable for spraying the pesticide based on the user location.
 
 17 crops and 52 leaf classes are recognised; the guide has advice for 44 diseases. See [docs/DOCUMENTATION.md](docs/DOCUMENTATION.md)
 for how to use every feature, the supported crops, and the known gaps.
