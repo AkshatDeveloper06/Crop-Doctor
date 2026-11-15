@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- leaf -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,26 C70,34 78,50 72,66 C68,76 58,82 54,84 C50,82 40,76 36,66 C30,50 38,34 54,26 Z" />
+    <!-- midrib -->
+    <path
+        android:fillColor="#15803D"
+        android:pathData="M52.5,40 L55.5,40 L55.5,76 L52.5,76 Z" />
+    <!-- medical cross -->
+    <path
+        android:fillColor="#15803D"
+        android:pathData="M47,54 L61,54 L61,57 L47,57 Z" />
+</vector>

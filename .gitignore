@@ -1,0 +1,38 @@
+# Build output
+build/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Local configuration and secrets: never commit
+local.properties
+*.jks
+*.keystore
+.env
+.env.*
+
+# IDE
+.idea/
+*.iml
+.vscode/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and crash dumps
+*.log
+hs_err_pid*
+
+# Python (benchmark scripts)
+__pycache__/
+*.pyc
+
+# Benchmark outputs and bundles: regenerate with the scripts in benchmark/
+benchmark/

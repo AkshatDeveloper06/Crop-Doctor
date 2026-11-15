@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Debug builds only: runs the on-device model over a folder of labelled test images (see /benchmark). -->
+    <application>
+        <activity
+            android:name="com.cropdoctor.app.bench.BenchmarkActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>

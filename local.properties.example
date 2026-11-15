@@ -1,0 +1,9 @@
+# Copy this file to local.properties (which is git-ignored) and fill it in.
+
+# Path to your Android SDK. Android Studio writes this line for you.
+sdk.dir=C:/Users/<you>/AppData/Local/Android/Sdk
+
+# Optional: key for the online AI helper (Ask answers and "More advice from AI").
+# Leave it out and the app is fully offline. A key compiled into an APK can be extracted,
+# so use a demo key and never publish an APK built with a real one.
+DEEPSEEK_API_KEY=

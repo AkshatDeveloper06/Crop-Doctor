@@ -1,0 +1,12 @@
+{
+  "architecture": "MobileNetV2 (INT8)",
+  "precision": "int8 weights, uint8 input",
+  "model_size_mb": 2.8,
+  "num_classes": 54,
+  "background_class": "Background___not_a_leaf",
+  "confident_threshold": 0.6,
+  "unsure_threshold": 0.35,
+  "val_accuracy": 0.914,
+  "val_accuracy_float": 0.932,
+  "note": "Accuracy is from the model's own validation split, which is not a field-photo test. Probabilities are not temperature-calibrated."
+}

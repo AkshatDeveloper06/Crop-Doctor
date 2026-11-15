@@ -1,0 +1,4 @@
+-keep class com.cropdoctor.app.data.** { *; }
+-keep class com.cropdoctor.app.knowledge.** { *; }
+-keep class org.tensorflow.lite.** { *; }
+-dontwarn org.tensorflow.lite.**

@@ -1,0 +1,2390 @@
+{
+  "crops": {
+    "Tomato": {
+      "en": "Tomato",
+      "hi": "टमाटर"
+    },
+    "Potato": {
+      "en": "Potato",
+      "hi": "आलू"
+    },
+    "Corn": {
+      "en": "Corn (Maize)",
+      "hi": "मक्का"
+    },
+    "Rice": {
+      "en": "Rice (Paddy)",
+      "hi": "धान"
+    },
+    "Sugarcane": {
+      "en": "Sugarcane",
+      "hi": "गन्ना"
+    },
+    "Cotton": {
+      "en": "Cotton",
+      "hi": "कपास"
+    },
+    "Pepper": {
+      "en": "Chilli / Capsicum",
+      "hi": "मिर्च / शिमला मिर्च"
+    },
+    "Grape": {
+      "en": "Grape",
+      "hi": "अंगूर"
+    },
+    "Apple": {
+      "en": "Apple",
+      "hi": "सेब"
+    },
+    "Blueberry": {
+      "en": "Blueberry",
+      "hi": "ब्लूबेरी"
+    },
+    "Cherry": {
+      "en": "Cherry",
+      "hi": "चेरी"
+    },
+    "Citrus": {
+      "en": "Citrus (Orange / Lemon)",
+      "hi": "नींबू वर्गीय (संतरा / नींबू)"
+    },
+    "Peach": {
+      "en": "Peach",
+      "hi": "आड़ू"
+    },
+    "Raspberry": {
+      "en": "Raspberry",
+      "hi": "रास्पबेरी"
+    },
+    "Soybean": {
+      "en": "Soybean",
+      "hi": "सोयाबीन"
+    },
+    "Squash": {
+      "en": "Squash / Gourd",
+      "hi": "कद्दू / स्क्वैश"
+    },
+    "Strawberry": {
+      "en": "Strawberry",
+      "hi": "स्ट्रॉबेरी"
+    }
+  },
+  "diseases": {
+    "Tomato___early_blight": {
+      "name": {
+        "en": "Early blight",
+        "hi": "अगेती झुलसा"
+      },
+      "severity": 2,
+      "followUpDays": 5,
+      "cause": {
+        "en": "A fungus (Alternaria) that survives on crop residue and spreads in warm, humid weather.",
+        "hi": "अल्टरनेरिया फफूंद, जो फसल अवशेष में जीवित रहती है और गर्म-नम मौसम में फैलती है।"
+      },
+      "symptoms": {
+        "en": "Brown spots with rings like a target on older, lower leaves; leaves yellow and drop.",
+        "hi": "पुरानी निचली पत्तियों पर गोल छल्लेदार भूरे धब्बे; पत्तियाँ पीली होकर गिरती हैं।"
+      },
+      "actions": {
+        "en": [
+          "Pick off and bury or burn the worst leaves.",
+          "Stop watering the leaves; water at the base in the morning."
+        ],
+        "hi": [
+          "सबसे ज़्यादा प्रभावित पत्तियाँ तोड़कर गाड़ें या जलाएँ।",
+          "पत्तियों पर पानी न डालें; सुबह जड़ के पास सिंचाई करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Neem oil 3-5 ml per litre of water, every 7 days.",
+          "Spray 1% Bordeaux mixture or a Trichoderma-based bio-fungicide."
+        ],
+        "hi": [
+          "नीम तेल 3-5 मि.ली. प्रति लीटर पानी, हर 7 दिन।",
+          "1% बोर्डो मिश्रण या ट्राइकोडर्मा आधारित जैव-फफूंदनाशी छिड़कें।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Mancozeb about 2.5 g per litre, or chlorothalonil about 2 g per litre. Follow the pack label."
+        ],
+        "hi": [
+          "मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर या क्लोरोथैलोनिल लगभग 2 ग्राम प्रति लीटर। पैकेट के लेबल का पालन करें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Rotate with non-solanaceous crops for 2-3 seasons.",
+          "Stake plants and keep leaves off the soil."
+        ],
+        "hi": [
+          "2-3 मौसम तक गैर-सोलेनेसी फसलों के साथ फसल चक्र अपनाएँ।",
+          "पौधों को सहारा दें, पत्तियाँ मिट्टी से दूर रखें।"
+        ]
+      }
+    },
+    "Tomato___late_blight": {
+      "name": {
+        "en": "Late blight",
+        "hi": "पछेती झुलसा"
+      },
+      "severity": 3,
+      "followUpDays": 3,
+      "spreadsFast": true,
+      "cause": {
+        "en": "A water-mould (Phytophthora) that explodes in cool, wet, cloudy weather and can ruin a field in days.",
+        "hi": "फाइटोफ्थोरा फफूंद, जो ठंडे, नम, बादल वाले मौसम में तेज़ी से फैलती है और कुछ दिनों में खेत बर्बाद कर सकती है।"
+      },
+      "symptoms": {
+        "en": "Large dark, water-soaked patches on leaves and stems; white fuzz underneath in damp weather; firm brown rot on fruit.",
+        "hi": "पत्तियों और तनों पर बड़े गहरे, पानी जैसे धब्बे; नमी में नीचे सफेद रुई जैसी परत; फलों पर कठोर भूरी सड़न।"
+      },
+      "actions": {
+        "en": [
+          "Act today: remove and destroy infected plants away from the field.",
+          "Spray a protective fungicide on all nearby plants now, before it spreads."
+        ],
+        "hi": [
+          "आज ही कार्रवाई करें: संक्रमित पौधे उखाड़कर खेत से दूर नष्ट करें।",
+          "फैलने से पहले आसपास के सभी पौधों पर सुरक्षात्मक फफूंदनाशी छिड़कें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "1% Bordeaux mixture or copper-based spray as a protectant (works only before/at early infection)."
+        ],
+        "hi": [
+          "1% बोर्डो मिश्रण या कॉपर आधारित छिड़काव (केवल शुरुआती अवस्था में कारगर)।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Metalaxyl + mancozeb about 2.5 g per litre, or cymoxanil + mancozeb about 3 g per litre. Repeat after 7-10 days; rotate products.",
+          "Copper oxychloride about 3 g per litre as a protectant."
+        ],
+        "hi": [
+          "मेटालैक्सिल + मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर या साइमोक्सानिल + मैंकोज़ेब लगभग 3 ग्राम प्रति लीटर। 7-10 दिन बाद दोहराएँ; दवा बदलते रहें।",
+          "कॉपर ऑक्सीक्लोराइड लगभग 3 ग्राम प्रति लीटर (सुरक्षात्मक)।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Use resistant varieties and healthy seedlings.",
+          "Avoid dense planting and evening irrigation; improve airflow."
+        ],
+        "hi": [
+          "प्रतिरोधी किस्में और स्वस्थ पौध लगाएँ।",
+          "घनी बुवाई और शाम की सिंचाई से बचें; हवा का आवागमन बढ़ाएँ।"
+        ]
+      }
+    },
+    "Tomato___bacterial_spot": {
+      "name": {
+        "en": "Bacterial spot",
+        "hi": "जीवाणु धब्बा रोग"
+      },
+      "severity": 2,
+      "followUpDays": 5,
+      "cause": {
+        "en": "Bacteria (Xanthomonas) carried on seed and splashed by rain or irrigation.",
+        "hi": "ज़ैंथोमोनास जीवाणु, जो बीज से आता है और बारिश या सिंचाई की छींटों से फैलता है।"
+      },
+      "symptoms": {
+        "en": "Small dark, greasy spots on leaves with a yellow halo; rough scabby spots on fruit.",
+        "hi": "पत्तियों पर पीले घेरे वाले छोटे गहरे, चिकने धब्बे; फलों पर खुरदरे पपड़ीदार धब्बे।"
+      },
+      "actions": {
+        "en": [
+          "Remove badly spotted leaves; do not work in the field when plants are wet.",
+          "Spray copper to slow spread."
+        ],
+        "hi": [
+          "अधिक धब्बे वाली पत्तियाँ हटाएँ; पौधे गीले हों तब खेत में काम न करें।",
+          "फैलाव धीमा करने के लिए कॉपर छिड़कें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Copper-based spray; clean tools with soap or bleach water."
+        ],
+        "hi": [
+          "कॉपर आधारित छिड़काव; औज़ार साबुन या ब्लीच के पानी से साफ़ करें।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Copper oxychloride about 3 g per litre, sometimes with streptocycline about 0.1 g per litre. Follow the label."
+        ],
+        "hi": [
+          "कॉपर ऑक्सीक्लोराइड लगभग 3 ग्राम प्रति लीटर, कभी-कभी स्ट्रेप्टोसाइक्लिन लगभग 0.1 ग्राम प्रति लीटर के साथ। लेबल देखें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Use certified disease-free seed.",
+          "Drip irrigation instead of overhead; 2-year rotation."
+        ],
+        "hi": [
+          "प्रमाणित रोग-मुक्त बीज लें।",
+          "ऊपर से सिंचाई की जगह ड्रिप लगाएँ; 2 साल का फसल चक्र।"
+        ]
+      }
+    },
+    "Tomato___leaf_mold": {
+      "name": {
+        "en": "Leaf mould",
+        "hi": "पत्ती फफूंद (लीफ मोल्ड)"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "cause": {
+        "en": "A fungus (Passalora) that thrives in very humid, poorly ventilated crops, especially in polyhouses.",
+        "hi": "पैसालोरा फफूंद, जो बहुत नम और कम हवादार फसल, खासकर पॉलीहाउस में, पनपती है।"
+      },
+      "symptoms": {
+        "en": "Pale yellow patches on top of the leaf and olive-grey velvety mould underneath.",
+        "hi": "पत्ती के ऊपर हल्के पीले धब्बे और नीचे जैतूनी-स्लेटी मखमली फफूंद।"
+      },
+      "actions": {
+        "en": [
+          "Open the crop: improve ventilation, prune lower leaves.",
+          "Reduce humidity; avoid wetting leaves."
+        ],
+        "hi": [
+          "फसल में हवा आने दें, निचली पत्तियाँ छाँटें।",
+          "नमी घटाएँ; पत्तियाँ गीली न करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Sulphur dust or Trichoderma/bio-fungicide as per label."
+        ],
+        "hi": [
+          "गंधक चूर्ण या ट्राइकोडर्मा / जैव-फफूंदनाशी (लेबल अनुसार)।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Chlorothalonil about 2 g per litre or mancozeb about 2.5 g per litre."
+        ],
+        "hi": [
+          "क्लोरोथैलोनिल लगभग 2 ग्राम प्रति लीटर या मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Wider spacing and staking; keep humidity below 85%."
+        ],
+        "hi": [
+          "पौधों में ज़्यादा दूरी और सहारा; नमी 85% से कम रखें।"
+        ]
+      }
+    },
+    "Tomato___septoria_leaf_spot": {
+      "name": {
+        "en": "Septoria leaf spot",
+        "hi": "सेप्टोरिया पत्ती धब्बा"
+      },
+      "severity": 2,
+      "followUpDays": 5,
+      "cause": {
+        "en": "A fungus (Septoria) spread by rain splash from infected residue.",
+        "hi": "सेप्टोरिया फफूंद, जो संक्रमित अवशेष से बारिश की छींटों द्वारा फैलती है।"
+      },
+      "symptoms": {
+        "en": "Many small round spots with grey centre and dark edge, tiny black dots inside; lower leaves go first.",
+        "hi": "सलेटी केंद्र और गहरे किनारे वाले कई छोटे गोल धब्बे, भीतर छोटे काले बिंदु; पहले निचली पत्तियाँ प्रभावित।"
+      },
+      "actions": {
+        "en": [
+          "Remove infected lower leaves.",
+          "Do not touch plants when wet."
+        ],
+        "hi": [
+          "संक्रमित निचली पत्तियाँ हटाएँ।",
+          "गीले पौधों को न छुएँ।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Neem oil or copper-based organic spray every 7-10 days."
+        ],
+        "hi": [
+          "नीम तेल या कॉपर आधारित जैविक छिड़काव हर 7-10 दिन।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Chlorothalonil about 2 g per litre or mancozeb about 2.5 g per litre."
+        ],
+        "hi": [
+          "क्लोरोथैलोनिल लगभग 2 ग्राम प्रति लीटर या मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Clear plant debris after harvest; rotate crops 2-3 years.",
+          "Mulch to stop soil splash."
+        ],
+        "hi": [
+          "कटाई के बाद अवशेष साफ़ करें; 2-3 साल फसल चक्र।",
+          "मिट्टी की छींटें रोकने के लिए मल्च बिछाएँ।"
+        ]
+      }
+    },
+    "Tomato___spider_mites": {
+      "name": {
+        "en": "Spider mites",
+        "hi": "लाल मकड़ी (स्पाइडर माइट)"
+      },
+      "severity": 2,
+      "followUpDays": 4,
+      "cause": {
+        "en": "Tiny sap-sucking mites that multiply fast in hot, dry, dusty weather.",
+        "hi": "रस चूसने वाले सूक्ष्म माइट, जो गर्म, सूखे, धूल भरे मौसम में तेज़ी से बढ़ते हैं।"
+      },
+      "symptoms": {
+        "en": "Fine yellow stipples, bronzing, thin webbing under leaves; leaves dry out.",
+        "hi": "पत्तियों पर बारीक पीले बिंदु, कांसे जैसा रंग, नीचे महीन जाला; पत्तियाँ सूखती हैं।"
+      },
+      "actions": {
+        "en": [
+          "Wash undersides of leaves with a strong water jet.",
+          "Check neighbouring plants; mites spread quickly."
+        ],
+        "hi": [
+          "पत्तियों के नीचे के हिस्से पर तेज़ पानी की धार से धोएँ।",
+          "आसपास के पौधे जाँचें; माइट जल्दी फैलते हैं।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Neem oil 5 ml per litre with a little soap, on the underside of leaves."
+        ],
+        "hi": [
+          "नीम तेल 5 मि.ली. प्रति लीटर थोड़े साबुन के साथ, पत्तियों के नीचे की ओर।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Wettable sulphur about 3 g per litre, or a miticide such as abamectin or spiromesifen as per label."
+        ],
+        "hi": [
+          "घुलनशील गंधक लगभग 3 ग्राम प्रति लीटर या लेबल अनुसार एबामेक्टिन / स्पाइरोमेसिफेन जैसी माइटनाशी।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Avoid water stress and dust; keep field borders weed-free."
+        ],
+        "hi": [
+          "पानी की कमी और धूल से बचें; मेड़ें खरपतवार-मुक्त रखें।"
+        ]
+      }
+    },
+    "Tomato___target_spot": {
+      "name": {
+        "en": "Target spot",
+        "hi": "टारगेट स्पॉट"
+      },
+      "severity": 2,
+      "followUpDays": 5,
+      "cause": {
+        "en": "A fungus (Corynespora) favoured by warm, wet, humid weather.",
+        "hi": "कोरिनेस्पोरा फफूंद, जो गर्म, नम और आर्द्र मौसम में पनपती है।"
+      },
+      "symptoms": {
+        "en": "Brown spots with concentric rings and yellow edges on leaves; sunken spots on fruit.",
+        "hi": "पत्तियों पर पीले किनारे वाले छल्लेदार भूरे धब्बे; फलों पर दबे हुए धब्बे।"
+      },
+      "actions": {
+        "en": [
+          "Remove infected leaves and improve airflow.",
+          "Avoid overhead watering."
+        ],
+        "hi": [
+          "संक्रमित पत्तियाँ हटाएँ और हवा का आवागमन बढ़ाएँ।",
+          "ऊपर से सिंचाई से बचें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Copper-based spray or Trichoderma-based product as per label."
+        ],
+        "hi": [
+          "कॉपर आधारित छिड़काव या ट्राइकोडर्मा उत्पाद (लेबल अनुसार)।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Mancozeb about 2.5 g per litre or chlorothalonil about 2 g per litre."
+        ],
+        "hi": [
+          "मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर या क्लोरोथैलोनिल लगभग 2 ग्राम प्रति लीटर।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Crop rotation, clean-up of residue, wider spacing."
+        ],
+        "hi": [
+          "फसल चक्र, अवशेष की सफ़ाई, ज़्यादा दूरी पर रोपाई।"
+        ]
+      }
+    },
+    "Tomato___yellow_leaf_curl_virus": {
+      "name": {
+        "en": "Yellow leaf curl virus",
+        "hi": "पत्ती मरोड़ (पीला पर्ण कुंचन) वायरस"
+      },
+      "severity": 3,
+      "followUpDays": 5,
+      "spreadsFast": true,
+      "cause": {
+        "en": "A virus spread by whiteflies. There is no cure once a plant is infected.",
+        "hi": "वायरस, जो सफेद मक्खी से फैलता है। संक्रमण के बाद पौधे का इलाज नहीं है।"
+      },
+      "symptoms": {
+        "en": "Leaves curl upward and turn yellow at edges; plants stay stunted with few fruits.",
+        "hi": "पत्तियाँ ऊपर की ओर मुड़ती हैं, किनारे पीले; पौधे बौने और फल कम।"
+      },
+      "actions": {
+        "en": [
+          "Uproot and destroy infected plants (in a bag) so whiteflies do not carry it on.",
+          "Control whiteflies now: yellow sticky traps and spray."
+        ],
+        "hi": [
+          "संक्रमित पौधे उखाड़कर (थैले में) नष्ट करें ताकि सफेद मक्खी आगे न फैलाए।",
+          "अभी सफेद मक्खी नियंत्रित करें: पीले चिपचिपे ट्रैप और छिड़काव।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Neem oil 5 ml per litre; yellow sticky traps (about 10 per acre)."
+        ],
+        "hi": [
+          "नीम तेल 5 मि.ली. प्रति लीटर; पीले चिपचिपे ट्रैप (लगभग 10 प्रति एकड़)।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Only against the whitefly vector, using a recommended insecticide (e.g. imidacloprid about 0.3 ml per litre). Confirm with your KVK."
+        ],
+        "hi": [
+          "केवल सफेद मक्खी के लिए अनुशंसित कीटनाशी (जैसे इमिडाक्लोप्रिड लगभग 0.3 मि.ली. प्रति लीटर)। KVK से पुष्टि करें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Use tolerant varieties and virus-free seedlings under net.",
+          "Border crop of maize/sorghum; remove weeds."
+        ],
+        "hi": [
+          "सहनशील किस्में और नेट के नीचे वायरस-मुक्त पौध।",
+          "किनारे पर मक्का/ज्वार की पट्टी; खरपतवार हटाएँ।"
+        ]
+      }
+    },
+    "Tomato___mosaic_virus": {
+      "name": {
+        "en": "Mosaic virus",
+        "hi": "मोज़ेक वायरस"
+      },
+      "severity": 3,
+      "followUpDays": 7,
+      "cause": {
+        "en": "A virus spread by hands, tools and sap. It cannot be cured.",
+        "hi": "वायरस, जो हाथ, औज़ार और रस से फैलता है। इसका इलाज नहीं है।"
+      },
+      "symptoms": {
+        "en": "Light and dark green mottled leaves, curled or fern-like leaves, stunted growth.",
+        "hi": "पत्तियों पर हल्के-गहरे हरे चितकबरे निशान, मुड़ी या फर्न जैसी पत्तियाँ, बौनी वृद्धि।"
+      },
+      "actions": {
+        "en": [
+          "Remove and destroy infected plants.",
+          "Wash hands with soap and clean tools before touching healthy plants."
+        ],
+        "hi": [
+          "संक्रमित पौधे हटाकर नष्ट करें।",
+          "स्वस्थ पौधे छूने से पहले साबुन से हाथ धोएँ और औज़ार साफ़ करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "No spray cures it. Control aphids with neem oil to limit spread."
+        ],
+        "hi": [
+          "कोई छिड़काव इलाज नहीं करता। फैलाव रोकने के लिए नीम तेल से माहू नियंत्रित करें।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "No chemical cure. Use only to control insect carriers, as advised by your KVK."
+        ],
+        "hi": [
+          "कोई रासायनिक इलाज नहीं। केवल वाहक कीटों के लिए, KVK की सलाह से।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Use certified virus-free seed; do not smoke/chew tobacco while handling plants.",
+          "Rotate and remove weeds."
+        ],
+        "hi": [
+          "प्रमाणित वायरस-मुक्त बीज; पौधे छूते समय तंबाकू का सेवन न करें।",
+          "फसल चक्र अपनाएँ और खरपतवार हटाएँ।"
+        ]
+      }
+    },
+    "Potato___early_blight": {
+      "name": {
+        "en": "Early blight",
+        "hi": "अगेती झुलसा"
+      },
+      "severity": 2,
+      "followUpDays": 5,
+      "cause": {
+        "en": "Alternaria fungus; worse in stressed plants and alternating dry and humid spells.",
+        "hi": "अल्टरनेरिया फफूंद; कमज़ोर पौधों और सूखे-नम मौसम के बदलाव में अधिक।"
+      },
+      "symptoms": {
+        "en": "Dark brown rings (target-like) on older leaves; leaves yellow and dry from the bottom.",
+        "hi": "पुरानी पत्तियों पर गहरे भूरे छल्लेदार धब्बे; पत्तियाँ नीचे से पीली होकर सूखती हैं।"
+      },
+      "actions": {
+        "en": [
+          "Remove heavily infected leaves.",
+          "Feed and irrigate properly: stressed plants get it worse."
+        ],
+        "hi": [
+          "अधिक संक्रमित पत्तियाँ हटाएँ।",
+          "ठीक से खाद-पानी दें: कमज़ोर पौधों में रोग ज़्यादा होता है।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Neem oil or Bordeaux mixture 1% as a protectant."
+        ],
+        "hi": [
+          "नीम तेल या 1% बोर्डो मिश्रण (सुरक्षात्मक)।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Mancozeb about 2.5 g per litre, repeat in 10-12 days. Follow the label."
+        ],
+        "hi": [
+          "मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर, 10-12 दिन में दोहराएँ। लेबल देखें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Healthy certified seed tubers; crop rotation; balanced fertiliser."
+        ],
+        "hi": [
+          "स्वस्थ प्रमाणित बीज कंद; फसल चक्र; संतुलित खाद।"
+        ]
+      }
+    },
+    "Potato___late_blight": {
+      "name": {
+        "en": "Late blight",
+        "hi": "पछेती झुलसा"
+      },
+      "severity": 3,
+      "followUpDays": 3,
+      "spreadsFast": true,
+      "cause": {
+        "en": "Phytophthora; spreads very fast in cool (10-20°C), cloudy, foggy weather and can destroy a crop in a week.",
+        "hi": "फाइटोफ्थोरा; ठंडे (10-20°C), बादल/कोहरे वाले मौसम में बहुत तेज़ी से फैलता है और एक हफ्ते में फसल नष्ट कर सकता है।"
+      },
+      "symptoms": {
+        "en": "Dark water-soaked patches on leaves, white fuzz underneath, stems blacken; tubers get firm brown rot.",
+        "hi": "पत्तियों पर गहरे पानी जैसे धब्बे, नीचे सफेद फफूंद, तने काले; कंदों में कठोर भूरी सड़न।"
+      },
+      "actions": {
+        "en": [
+          "Spray a systemic + protectant fungicide immediately on the whole field.",
+          "Remove infected plants; stop irrigating if fog or rain is forecast; delay harvest until haulms dry."
+        ],
+        "hi": [
+          "पूरे खेत में तुरंत प्रणालीगत + सुरक्षात्मक फफूंदनाशी छिड़कें।",
+          "संक्रमित पौधे हटाएँ; कोहरा/बारिश हो तो सिंचाई रोकें; पौधे सूखने तक खुदाई टालें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Copper-based or Bordeaux spray only as a protectant before infection, not a cure."
+        ],
+        "hi": [
+          "कॉपर या बोर्डो छिड़काव केवल संक्रमण से पहले सुरक्षा के लिए, इलाज नहीं।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Metalaxyl + mancozeb about 2.5 g per litre or cymoxanil + mancozeb about 3 g per litre; repeat every 7-10 days, rotating products."
+        ],
+        "hi": [
+          "मेटालैक्सिल + मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर या साइमोक्सानिल + मैंकोज़ेब लगभग 3 ग्राम प्रति लीटर; हर 7-10 दिन दोहराएँ, दवाएँ बदलते रहें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Preventive mancozeb sprays when the weather turns cool and foggy.",
+          "Resistant varieties, certified seed, earthing-up well."
+        ],
+        "hi": [
+          "मौसम ठंडा और कोहरे वाला होने पर पहले से मैंकोज़ेब छिड़काव।",
+          "प्रतिरोधी किस्में, प्रमाणित बीज, अच्छी मिट्टी चढ़ाई।"
+        ]
+      }
+    },
+    "Corn___common_rust": {
+      "name": {
+        "en": "Common rust",
+        "hi": "सामान्य रतुआ"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "cause": {
+        "en": "Rust fungus (Puccinia) blown in on wind; likes cool, humid weather.",
+        "hi": "पक्सीनिया रतुआ फफूंद, जो हवा से आती है; ठंडे, नम मौसम में अधिक।"
+      },
+      "symptoms": {
+        "en": "Small brick-red to brown powdery pustules on both sides of the leaf.",
+        "hi": "पत्ती के दोनों ओर ईंट जैसे लाल-भूरे छोटे चूर्णी उभार।"
+      },
+      "actions": {
+        "en": [
+          "Scout the field; if many leaves above the cob are affected, spray.",
+          "Do not spray if infection is only light."
+        ],
+        "hi": [
+          "खेत देखें; भुट्टे के ऊपर की कई पत्तियाँ प्रभावित हों तो छिड़काव करें।",
+          "हल्के संक्रमण में छिड़काव ज़रूरी नहीं।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Remove volunteer plants; neem-based sprays offer only limited help."
+        ],
+        "hi": [
+          "स्वतः उगे पौधे हटाएँ; नीम आधारित छिड़काव से सीमित लाभ।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Mancozeb about 2.5 g per litre or propiconazole about 1 ml per litre."
+        ],
+        "hi": [
+          "मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर या प्रोपिकोनाज़ोल लगभग 1 मि.ली. प्रति लीटर।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Plant resistant hybrids; sow on time; avoid late sowing."
+        ],
+        "hi": [
+          "प्रतिरोधी संकर किस्में लगाएँ; समय पर बुवाई करें, देर से बुवाई न करें।"
+        ]
+      }
+    },
+    "Corn___northern_leaf_blight": {
+      "name": {
+        "en": "Northern leaf blight",
+        "hi": "उत्तरी पत्ती झुलसा"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "cause": {
+        "en": "Fungus (Exserohilum) that overwinters in residue; favoured by moderate temperature and long leaf wetness.",
+        "hi": "एक्सरोहिलम फफूंद, जो अवशेष में बचती है; मध्यम तापमान और पत्तियों के लंबे समय गीले रहने पर अधिक।"
+      },
+      "symptoms": {
+        "en": "Long, cigar-shaped grey-green to tan lesions (3-15 cm) on leaves.",
+        "hi": "पत्तियों पर लंबे, सिगार जैसे सलेटी-हरे से भूरे घाव (3-15 सेमी)।"
+      },
+      "actions": {
+        "en": [
+          "Spray if lesions reach the leaves near the cob before flowering.",
+          "Plan to deep-plough residue after harvest."
+        ],
+        "hi": [
+          "फूल आने से पहले भुट्टे के पास की पत्तियों तक घाव पहुँचें तो छिड़काव करें।",
+          "कटाई के बाद अवशेष की गहरी जुताई करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Residue management and rotation are the main organic tools."
+        ],
+        "hi": [
+          "अवशेष प्रबंधन और फसल चक्र मुख्य जैविक उपाय हैं।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Mancozeb about 2.5 g per litre or propiconazole about 1 ml per litre, as per label."
+        ],
+        "hi": [
+          "मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर या प्रोपिकोनाज़ोल लगभग 1 मि.ली. प्रति लीटर, लेबल अनुसार।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Resistant hybrids, rotation with non-cereal crops."
+        ],
+        "hi": [
+          "प्रतिरोधी संकर किस्में, अनाज के अलावा फसलों से चक्र।"
+        ]
+      }
+    },
+    "Corn___gray_leaf_spot": {
+      "name": {
+        "en": "Gray leaf spot",
+        "hi": "ग्रे लीफ स्पॉट (सलेटी पत्ती धब्बा)"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "cause": {
+        "en": "Cercospora fungus; worse in warm, humid, no-till or maize-after-maize fields.",
+        "hi": "सर्कोस्पोरा फफूंद; गर्म, नम मौसम और लगातार मक्का बोने वाले खेतों में अधिक।"
+      },
+      "symptoms": {
+        "en": "Narrow rectangular grey-tan spots that run parallel to leaf veins.",
+        "hi": "शिराओं के समानांतर पतले आयताकार सलेटी-भूरे धब्बे।"
+      },
+      "actions": {
+        "en": [
+          "Scout lower and middle leaves; spray if spreading upward before tasselling."
+        ],
+        "hi": [
+          "निचली और बीच की पत्तियाँ देखें; झंडा निकलने से पहले ऊपर फैले तो छिड़काव करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Remove residue and rotate; no effective organic spray."
+        ],
+        "hi": [
+          "अवशेष हटाएँ और फसल चक्र अपनाएँ; कोई प्रभावी जैविक छिड़काव नहीं।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Propiconazole about 1 ml per litre or azoxystrobin-based fungicide as per label."
+        ],
+        "hi": [
+          "प्रोपिकोनाज़ोल लगभग 1 मि.ली. प्रति लीटर या एज़ोक्सीस्ट्रोबिन आधारित फफूंदनाशी (लेबल अनुसार)।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Rotate; use tolerant hybrids; avoid very dense stands."
+        ],
+        "hi": [
+          "फसल चक्र; सहनशील किस्में; बहुत घनी बुवाई से बचें।"
+        ]
+      }
+    },
+    "Rice___bacterial_leaf_blight": {
+      "name": {
+        "en": "Bacterial leaf blight",
+        "hi": "जीवाणु पत्ती झुलसा"
+      },
+      "severity": 3,
+      "followUpDays": 5,
+      "spreadsFast": true,
+      "cause": {
+        "en": "Xanthomonas bacteria entering through wounds; spreads in flood water and rain, worse with heavy nitrogen.",
+        "hi": "ज़ैंथोमोनास जीवाणु, जो घावों से घुसते हैं; बाढ़/बारिश के पानी से फैलते हैं, अधिक नाइट्रोजन में ज़्यादा।"
+      },
+      "symptoms": {
+        "en": "Water-soaked yellow-white stripes from leaf tips and edges that dry to straw colour.",
+        "hi": "पत्ती की नोक और किनारों से पानी जैसी पीली-सफेद धारियाँ, जो सूखकर भूसे जैसी हो जाती हैं।"
+      },
+      "actions": {
+        "en": [
+          "Cut down nitrogen top-dressing; drain the field for a few days if possible.",
+          "Spray as per KVK advice; do not move water from infected plots to clean ones."
+        ],
+        "hi": [
+          "नाइट्रोजन की ऊपरी खुराक घटाएँ; संभव हो तो कुछ दिन खेत का पानी निकालें।",
+          "KVK की सलाह से छिड़काव करें; संक्रमित खेत का पानी स्वस्थ खेत में न जाने दें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Fresh cow-dung extract or neem-based spray gives only partial help."
+        ],
+        "hi": [
+          "ताज़ा गोबर का अर्क या नीम आधारित छिड़काव से आंशिक लाभ।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Streptocycline about 0.1 g per litre with copper oxychloride about 2.5 g per litre. Follow the label."
+        ],
+        "hi": [
+          "स्ट्रेप्टोसाइक्लिन लगभग 0.1 ग्राम प्रति लीटर और कॉपर ऑक्सीक्लोराइड लगभग 2.5 ग्राम प्रति लीटर। लेबल देखें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Resistant varieties, certified seed, balanced (not excess) nitrogen.",
+          "Avoid clipping seedling tips at transplanting."
+        ],
+        "hi": [
+          "प्रतिरोधी किस्में, प्रमाणित बीज, संतुलित (अधिक नहीं) नाइट्रोजन।",
+          "रोपाई में पौध की नोक न काटें।"
+        ]
+      }
+    },
+    "Rice___bacterial_leaf_streak": {
+      "name": {
+        "en": "Bacterial leaf streak",
+        "hi": "जीवाणु धारी रोग"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "cause": {
+        "en": "Xanthomonas bacteria; spreads by rain and wind in warm humid weather.",
+        "hi": "ज़ैंथोमोनास जीवाणु; गर्म-नम मौसम में बारिश और हवा से फैलते हैं।"
+      },
+      "symptoms": {
+        "en": "Narrow dark-green water-soaked streaks between veins that turn brown-yellow.",
+        "hi": "शिराओं के बीच पतली गहरी हरी पानी जैसी धारियाँ, जो भूरी-पीली हो जाती हैं।"
+      },
+      "actions": {
+        "en": [
+          "Reduce excess nitrogen and keep field bunds clean."
+        ],
+        "hi": [
+          "अतिरिक्त नाइट्रोजन घटाएँ और मेड़ें साफ़ रखें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Seed treatment with a bio-agent (e.g. Pseudomonas) before the next sowing."
+        ],
+        "hi": [
+          "अगली बुवाई से पहले जैव-एजेंट (जैसे सूडोमोनास) से बीजोपचार।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Copper oxychloride about 2.5 g per litre as per label; confirm with your KVK."
+        ],
+        "hi": [
+          "कॉपर ऑक्सीक्लोराइड लगभग 2.5 ग्राम प्रति लीटर (लेबल अनुसार); KVK से पुष्टि करें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Clean certified seed; remove weeds and stubble."
+        ],
+        "hi": [
+          "साफ़ प्रमाणित बीज; खरपतवार और ठूँठ हटाएँ।"
+        ]
+      }
+    },
+    "Rice___brown_spot": {
+      "name": {
+        "en": "Brown spot",
+        "hi": "भूरी चित्ती रोग (ब्राउन स्पॉट)"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "cause": {
+        "en": "Fungus (Bipolaris) in nutrient-poor or water-stressed fields, often low potash.",
+        "hi": "बाइपोलैरिस फफूंद; पोषक तत्वों की कमी या पानी की कमी वाले खेतों में, अक्सर पोटाश कम होने पर।"
+      },
+      "symptoms": {
+        "en": "Oval brown spots with a grey centre on leaves and grains; seedlings can be killed.",
+        "hi": "पत्तियों और दानों पर सलेटी केंद्र वाले अंडाकार भूरे धब्बे; पौध मर सकती है।"
+      },
+      "actions": {
+        "en": [
+          "Correct nutrition: apply potash and balanced fertiliser.",
+          "Keep fields from drying out."
+        ],
+        "hi": [
+          "पोषण सुधारें: पोटाश और संतुलित खाद दें।",
+          "खेत को सूखने न दें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Seed treatment with Trichoderma; apply compost."
+        ],
+        "hi": [
+          "ट्राइकोडर्मा से बीजोपचार; कम्पोस्ट डालें।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Mancozeb about 2.5 g per litre or propiconazole about 1 ml per litre."
+        ],
+        "hi": [
+          "मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर या प्रोपिकोनाज़ोल लगभग 1 मि.ली. प्रति लीटर।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Treat seed before sowing; use healthy seed; fertilise to soil-test advice."
+        ],
+        "hi": [
+          "बुवाई से पहले बीजोपचार; स्वस्थ बीज; मृदा जाँच के अनुसार खाद।"
+        ]
+      }
+    },
+    "Rice___leaf_blast": {
+      "name": {
+        "en": "Leaf blast",
+        "hi": "झोंका रोग (ब्लास्ट)"
+      },
+      "severity": 3,
+      "followUpDays": 4,
+      "spreadsFast": true,
+      "cause": {
+        "en": "Fungus (Magnaporthe) that spreads by wind spores in cool nights, dew and high nitrogen.",
+        "hi": "मैग्नापोर्थे फफूंद; ठंडी रातों, ओस और अधिक नाइट्रोजन में हवा के बीजाणुओं से फैलती है।"
+      },
+      "symptoms": {
+        "en": "Diamond/spindle-shaped spots with grey centre and brown edge; severe cases burn the whole leaf.",
+        "hi": "सलेटी केंद्र और भूरे किनारे वाले आँख/तकले जैसे धब्बे; गंभीर होने पर पूरी पत्ती जल जाती है।"
+      },
+      "actions": {
+        "en": [
+          "Spray at the first spots; blast can reach the neck and panicle fast.",
+          "Stop extra nitrogen."
+        ],
+        "hi": [
+          "पहले धब्बे दिखते ही छिड़काव करें; रोग गर्दन और बाली तक तेज़ी से पहुँचता है।",
+          "अतिरिक्त नाइट्रोजन रोक दें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Pseudomonas fluorescens seed treatment and spray as a preventive."
+        ],
+        "hi": [
+          "सूडोमोनास फ्लोरेसेंस से बीजोपचार और निवारक छिड़काव।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Tricyclazole about 0.6 g per litre or isoprothiolane about 1.5 ml per litre. Follow the label."
+        ],
+        "hi": [
+          "ट्राइसाइक्लाज़ोल लगभग 0.6 ग्राम प्रति लीटर या आइसोप्रोथियोलेन लगभग 1.5 मि.ली. प्रति लीटर। लेबल देखें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Resistant varieties, seed treatment, split nitrogen doses, clean bunds."
+        ],
+        "hi": [
+          "प्रतिरोधी किस्में, बीजोपचार, नाइट्रोजन किस्तों में, साफ़ मेड़ें।"
+        ]
+      }
+    },
+    "Rice___tungro": {
+      "name": {
+        "en": "Tungro",
+        "hi": "टुंग्रो वायरस"
+      },
+      "severity": 3,
+      "followUpDays": 5,
+      "spreadsFast": true,
+      "cause": {
+        "en": "A virus complex carried by green leafhoppers. Infected plants cannot be cured.",
+        "hi": "वायरस समूह, जो हरे तेले (ग्रीन लीफहॉपर) से फैलता है। संक्रमित पौधे ठीक नहीं होते।"
+      },
+      "symptoms": {
+        "en": "Yellow to orange leaves, stunted plants, fewer tillers, empty or small panicles.",
+        "hi": "पत्तियाँ पीली से नारंगी, पौधे बौने, कल्ले कम, बालियाँ खाली या छोटी।"
+      },
+      "actions": {
+        "en": [
+          "Control the leafhoppers now; use light traps if available.",
+          "Remove severely infected hills; avoid staggered planting near this field."
+        ],
+        "hi": [
+          "अभी तेले को नियंत्रित करें; उपलब्ध हो तो प्रकाश प्रपंच लगाएँ।",
+          "अत्यधिक संक्रमित पौधे हटाएँ; इस खेत के पास अलग-अलग समय पर रोपाई न करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Neem-based sprays reduce hopper numbers; drain and dry to disturb them."
+        ],
+        "hi": [
+          "नीम आधारित छिड़काव से तेले कम होते हैं; पानी निकालकर खेत सुखाने से भी असर पड़ता है।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Insecticide against green leafhopper as recommended by your KVK for your area."
+        ],
+        "hi": [
+          "अपने क्षेत्र के लिए KVK द्वारा अनुशंसित हरे तेले की कीटनाशी।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Resistant varieties; synchronised planting with neighbours; remove weeds and stubble."
+        ],
+        "hi": [
+          "प्रतिरोधी किस्में; पड़ोसियों के साथ एक साथ रोपाई; खरपतवार और ठूँठ हटाएँ।"
+        ]
+      }
+    },
+    "Rice___hispa": {
+      "name": {
+        "en": "Rice hispa",
+        "hi": "धान का हिस्पा कीट"
+      },
+      "severity": 2,
+      "followUpDays": 5,
+      "cause": {
+        "en": "A small spiny beetle whose adults scrape leaves and grubs mine inside them.",
+        "hi": "छोटा कंटीला भृंग; वयस्क पत्तियाँ खुरचते हैं और इल्लियाँ पत्ती के भीतर सुरंग बनाती हैं।"
+      },
+      "symptoms": {
+        "en": "White parallel scratch marks and blotchy papery patches on leaves; tips dry up.",
+        "hi": "पत्तियों पर सफेद समानांतर खरोंचें और कागज़ जैसे धब्बे; नोक सूखती है।"
+      },
+      "actions": {
+        "en": [
+          "Clip and destroy affected leaf tips before transplanting.",
+          "Keep field free of grassy weeds."
+        ],
+        "hi": [
+          "रोपाई से पहले प्रभावित पत्तियों की नोक काटकर नष्ट करें।",
+          "घास वाले खरपतवार हटाएँ।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Neem seed kernel extract 5% spray."
+        ],
+        "hi": [
+          "नीम बीज गिरी अर्क (5%) का छिड़काव।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Insecticide as recommended by your KVK if damage exceeds the threshold."
+        ],
+        "hi": [
+          "नुकसान सीमा से ऊपर हो तो KVK द्वारा अनुशंसित कीटनाशी।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Avoid excess nitrogen and close planting; remove weeds around the field."
+        ],
+        "hi": [
+          "अधिक नाइट्रोजन और घनी रोपाई से बचें; खेत के आसपास खरपतवार हटाएँ।"
+        ]
+      }
+    },
+    "Rice___dead_heart": {
+      "name": {
+        "en": "Dead heart (stem borer)",
+        "hi": "सूखा गोभ / डेड हार्ट (तना छेदक)"
+      },
+      "severity": 3,
+      "followUpDays": 5,
+      "cause": {
+        "en": "Stem borer caterpillars tunnel into the stem and cut off the growing centre.",
+        "hi": "तना छेदक की इल्लियाँ तने में घुसकर बीच की बढ़ने वाली गोभ काट देती हैं।"
+      },
+      "symptoms": {
+        "en": "Central shoot turns brown and dries; it pulls out easily with no roots damaged.",
+        "hi": "बीच की गोभ भूरी होकर सूखती है; खींचने पर आसानी से निकल आती है।"
+      },
+      "actions": {
+        "en": [
+          "Count affected tillers; act if more than about 5% are hit.",
+          "Use pheromone traps and remove egg masses where you can."
+        ],
+        "hi": [
+          "प्रभावित कल्ले गिनें; लगभग 5% से अधिक हों तो कार्रवाई करें।",
+          "फेरोमोन ट्रैप लगाएँ और संभव हो तो अंडे के समूह हटाएँ।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Release Trichogramma egg parasitoids as advised locally."
+        ],
+        "hi": [
+          "स्थानीय सलाह अनुसार ट्राइकोग्रामा परजीवी छोड़ें।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Borer insecticide as recommended by your KVK (dose per label)."
+        ],
+        "hi": [
+          "KVK द्वारा अनुशंसित तना छेदक कीटनाशी (मात्रा लेबल अनुसार)।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Early transplanting, destroy stubble after harvest, balanced nitrogen."
+        ],
+        "hi": [
+          "जल्दी रोपाई, कटाई के बाद ठूँठ नष्ट करें, संतुलित नाइट्रोजन।"
+        ]
+      }
+    },
+    "Rice___downy_mildew": {
+      "name": {
+        "en": "Downy mildew",
+        "hi": "मृदुरोमिल आसिता (डाउनी मिल्ड्यू)"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "cause": {
+        "en": "A water-mould favouring cool, humid, cloudy weather and waterlogged nurseries.",
+        "hi": "जल-फफूंद, जो ठंडे, नम, बादल वाले मौसम और जलभराव वाली नर्सरी में पनपती है।"
+      },
+      "symptoms": {
+        "en": "Pale yellow patches on leaves with a grey-white fuzz underneath; stunted, twisted plants.",
+        "hi": "पत्तियों पर हल्के पीले धब्बे, नीचे सलेटी-सफेद फफूंद; पौधे बौने और मुड़े हुए।"
+      },
+      "actions": {
+        "en": [
+          "Drain excess water; remove infected seedlings."
+        ],
+        "hi": [
+          "अतिरिक्त पानी निकालें; संक्रमित पौध हटाएँ।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Seed treatment with Trichoderma or Pseudomonas."
+        ],
+        "hi": [
+          "ट्राइकोडर्मा या सूडोमोनास से बीजोपचार।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Metalaxyl + mancozeb about 2.5 g per litre as per label."
+        ],
+        "hi": [
+          "मेटालैक्सिल + मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर (लेबल अनुसार)।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Raised, well-drained nursery beds; treated seed."
+        ],
+        "hi": [
+          "ऊँची, अच्छे जल-निकास वाली नर्सरी क्यारियाँ; उपचारित बीज।"
+        ]
+      }
+    },
+    "Sugarcane___red_rot": {
+      "name": {
+        "en": "Red rot",
+        "hi": "लाल सड़न (रेड रॉट)"
+      },
+      "severity": 3,
+      "followUpDays": 5,
+      "spreadsFast": true,
+      "cause": {
+        "en": "Fungus (Colletotrichum) carried in infected setts and spread by rain, irrigation and soil. The most damaging cane disease.",
+        "hi": "कोलेटोट्राइकम फफूंद, जो संक्रमित गन्ना बीज (सेट) से आती है और बारिश, सिंचाई व मिट्टी से फैलती है। गन्ने का सबसे हानिकारक रोग।"
+      },
+      "symptoms": {
+        "en": "Leaves dry from the tip; split cane shows red tissue with white cross-bands and a sour alcohol smell.",
+        "hi": "पत्तियाँ नोक से सूखती हैं; चीरने पर गन्ने का भीतर लाल, बीच-बीच में सफेद धारियाँ और खट्टी गंध।"
+      },
+      "actions": {
+        "en": [
+          "Uproot infected clumps with roots and burn or bury deep away from the field.",
+          "Do not use this field's cane for seed. Report to your sugar-mill cane officer / KVK."
+        ],
+        "hi": [
+          "संक्रमित झुंड जड़ समेत उखाड़कर खेत से दूर जलाएँ या गहरा गाड़ें।",
+          "इस खेत का गन्ना बीज के लिए न रखें। चीनी मिल के गन्ना अधिकारी / KVK को बताएँ।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Hot-water treatment of setts (about 50°C for 2 hours) before planting."
+        ],
+        "hi": [
+          "रोपाई से पहले सेट का गर्म पानी उपचार (लगभग 50°C पर 2 घंटे)।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "No cure for a standing crop. Dip setts in carbendazim about 1 g per litre before planting, as per KVK advice."
+        ],
+        "hi": [
+          "खड़ी फसल का इलाज नहीं। रोपाई से पहले सेट को कार्बेन्डाज़िम लगभग 1 ग्राम प्रति लीटर में डुबोएँ (KVK की सलाह से)।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Plant resistant varieties and disease-free setts; rotate with paddy; ensure drainage."
+        ],
+        "hi": [
+          "प्रतिरोधी किस्में और रोग-मुक्त सेट लगाएँ; धान के साथ फसल चक्र; जल निकास रखें।"
+        ]
+      }
+    },
+    "Sugarcane___mosaic": {
+      "name": {
+        "en": "Mosaic",
+        "hi": "मोज़ेक रोग"
+      },
+      "severity": 2,
+      "followUpDays": 10,
+      "cause": {
+        "en": "A virus spread by aphids and infected setts.",
+        "hi": "वायरस, जो माहू (एफिड) और संक्रमित सेट से फैलता है।"
+      },
+      "symptoms": {
+        "en": "Light and dark green mottling or streaks along the leaf; stunted thin canes.",
+        "hi": "पत्तियों पर हल्के-गहरे हरे चितकबरे निशान या धारियाँ; पतले, बौने गन्ने।"
+      },
+      "actions": {
+        "en": [
+          "Rogue out (remove) infected clumps early.",
+          "Control aphids."
+        ],
+        "hi": [
+          "संक्रमित झुंड शुरू में ही उखाड़ें।",
+          "माहू नियंत्रित करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Neem oil spray against aphids."
+        ],
+        "hi": [
+          "माहू के लिए नीम तेल का छिड़काव।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "No cure; insecticide only against aphid vectors as advised by KVK."
+        ],
+        "hi": [
+          "इलाज नहीं; केवल माहू के लिए KVK की सलाह से कीटनाशी।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Virus-free seed cane, resistant varieties."
+        ],
+        "hi": [
+          "वायरस-मुक्त बीज गन्ना, प्रतिरोधी किस्में।"
+        ]
+      }
+    },
+    "Sugarcane___rust": {
+      "name": {
+        "en": "Rust",
+        "hi": "रतुआ"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "cause": {
+        "en": "Puccinia fungus spread by wind in warm humid weather.",
+        "hi": "पक्सीनिया फफूंद, जो गर्म-नम मौसम में हवा से फैलती है।"
+      },
+      "symptoms": {
+        "en": "Small orange-brown pustules in rows on both sides of the leaf; leaves dry early.",
+        "hi": "पत्ती के दोनों ओर पंक्तियों में छोटे नारंगी-भूरे उभार; पत्तियाँ जल्दी सूखती हैं।"
+      },
+      "actions": {
+        "en": [
+          "Spray if the top leaves are affected.",
+          "Avoid excess nitrogen."
+        ],
+        "hi": [
+          "ऊपरी पत्तियाँ प्रभावित हों तो छिड़काव करें।",
+          "अधिक नाइट्रोजन से बचें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Remove heavily infected lower leaves; improve spacing."
+        ],
+        "hi": [
+          "अधिक संक्रमित निचली पत्तियाँ हटाएँ; दूरी सुधारें।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Mancozeb about 2.5 g per litre or propiconazole about 1 ml per litre."
+        ],
+        "hi": [
+          "मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर या प्रोपिकोनाज़ोल लगभग 1 मि.ली. प्रति लीटर।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Resistant varieties; balanced fertiliser."
+        ],
+        "hi": [
+          "प्रतिरोधी किस्में; संतुलित खाद।"
+        ]
+      }
+    },
+    "Sugarcane___yellow_leaf": {
+      "name": {
+        "en": "Yellow leaf disease",
+        "hi": "पीली पत्ती रोग"
+      },
+      "severity": 2,
+      "followUpDays": 10,
+      "cause": {
+        "en": "A virus spread by aphids and seed cane; also confused with nutrient or water stress.",
+        "hi": "वायरस, जो माहू और बीज गन्ने से फैलता है; पोषण या पानी की कमी से भी भ्रमित हो सकता है।"
+      },
+      "symptoms": {
+        "en": "Midrib turns yellow on the underside and yellowing spreads across the leaf; top leaves dry; bunchy top.",
+        "hi": "मध्य शिरा नीचे से पीली होकर पूरी पत्ती में फैलती है; ऊपरी पत्तियाँ सूखती हैं।"
+      },
+      "actions": {
+        "en": [
+          "First rule out nutrient or water stress.",
+          "Use clean seed from the next crop; control aphids."
+        ],
+        "hi": [
+          "पहले पोषण या पानी की कमी की संभावना देखें।",
+          "अगली फसल के लिए साफ़ बीज लें; माहू नियंत्रित करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Neem spray against aphids; compost and balanced nutrition."
+        ],
+        "hi": [
+          "माहू के लिए नीम छिड़काव; कम्पोस्ट और संतुलित पोषण।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "No cure. Aphid control only, as advised by KVK."
+        ],
+        "hi": [
+          "इलाज नहीं। केवल माहू नियंत्रण, KVK की सलाह से।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Tissue-culture, virus-free seed cane; resistant varieties."
+        ],
+        "hi": [
+          "टिशू कल्चर, वायरस-मुक्त बीज गन्ना; प्रतिरोधी किस्में।"
+        ]
+      }
+    },
+    "Cotton___bacterial_blight": {
+      "name": {
+        "en": "Bacterial blight",
+        "hi": "जीवाणु झुलसा (अंगमारी)"
+      },
+      "severity": 3,
+      "followUpDays": 5,
+      "spreadsFast": true,
+      "cause": {
+        "en": "Xanthomonas bacteria spread by seed, rain splash and wind-blown water.",
+        "hi": "ज़ैंथोमोनास जीवाणु, जो बीज, बारिश की छींटों और हवा के साथ पानी से फैलते हैं।"
+      },
+      "symptoms": {
+        "en": "Angular water-soaked leaf spots turning brown, black arm-like lesions on stems, rotting bolls.",
+        "hi": "पत्तियों पर कोणीय पानी जैसे धब्बे जो भूरे होते हैं, तनों पर काले घाव, सड़ते डोडे।"
+      },
+      "actions": {
+        "en": [
+          "Spray copper + streptocycline early; avoid working in wet fields."
+        ],
+        "hi": [
+          "शुरू में ही कॉपर + स्ट्रेप्टोसाइक्लिन छिड़कें; गीले खेत में काम न करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Seed delinting and treatment next season; remove infected debris."
+        ],
+        "hi": [
+          "अगले मौसम में बीज से रेशा हटाकर उपचार; संक्रमित अवशेष हटाएँ।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Copper oxychloride about 3 g per litre with streptocycline about 0.1 g per litre. Follow the label."
+        ],
+        "hi": [
+          "कॉपर ऑक्सीक्लोराइड लगभग 3 ग्राम प्रति लीटर और स्ट्रेप्टोसाइक्लिन लगभग 0.1 ग्राम प्रति लीटर। लेबल देखें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Resistant varieties, acid-delinted treated seed, crop rotation."
+        ],
+        "hi": [
+          "प्रतिरोधी किस्में, उपचारित बीज, फसल चक्र।"
+        ]
+      }
+    },
+    "Cotton___curl_virus": {
+      "name": {
+        "en": "Leaf curl virus",
+        "hi": "पत्ती मरोड़ वायरस"
+      },
+      "severity": 3,
+      "followUpDays": 5,
+      "spreadsFast": true,
+      "cause": {
+        "en": "A virus spread by whiteflies. Infected plants cannot be cured.",
+        "hi": "वायरस, जो सफेद मक्खी से फैलता है। संक्रमित पौधे ठीक नहीं होते।"
+      },
+      "symptoms": {
+        "en": "Leaves curl upward or downward, veins thicken and turn dark, small leaf-like growths underneath; plants stunt.",
+        "hi": "पत्तियाँ ऊपर या नीचे मुड़ती हैं, शिराएँ मोटी और गहरी, नीचे छोटे पत्ती जैसे उभार; पौधे बौने।"
+      },
+      "actions": {
+        "en": [
+          "Control whiteflies now and remove infected young plants early.",
+          "Check weeds and neighbouring okra/vegetables that host whiteflies."
+        ],
+        "hi": [
+          "अभी सफेद मक्खी नियंत्रित करें और संक्रमित छोटे पौधे जल्दी हटाएँ।",
+          "सफेद मक्खी को पनाह देने वाले खरपतवार और पास की भिंडी/सब्ज़ियाँ देखें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Yellow sticky traps; neem oil 5 ml per litre."
+        ],
+        "hi": [
+          "पीले चिपचिपे ट्रैप; नीम तेल 5 मि.ली. प्रति लीटर।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Whitefly insecticide as recommended by your KVK; rotate modes of action."
+        ],
+        "hi": [
+          "KVK द्वारा अनुशंसित सफेद मक्खी कीटनाशी; दवाएँ बदलते रहें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Tolerant varieties, early sowing, remove alternate host weeds."
+        ],
+        "hi": [
+          "सहनशील किस्में, समय पर बुवाई, वैकल्पिक पोषक खरपतवार हटाएँ।"
+        ]
+      }
+    },
+    "Cotton___alternaria_leaf_spot": {
+      "name": {
+        "en": "Alternaria leaf spot",
+        "hi": "अल्टरनेरिया पत्ती धब्बा"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "cause": {
+        "en": "Alternaria fungus; worse with nutrient stress (especially potash) and humid spells.",
+        "hi": "अल्टरनेरिया फफूंद; पोषण की कमी (खासकर पोटाश) और नम मौसम में अधिक।"
+      },
+      "symptoms": {
+        "en": "Round brown spots with rings, leaves reddening and dropping early.",
+        "hi": "छल्लेदार गोल भूरे धब्बे, पत्तियाँ लाल होकर जल्दी गिरती हैं।"
+      },
+      "actions": {
+        "en": [
+          "Correct potash and nitrogen balance; irrigate evenly."
+        ],
+        "hi": [
+          "पोटाश और नाइट्रोजन संतुलन सुधारें; समान सिंचाई करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Remove fallen leaves; neem oil spray as a mild protectant."
+        ],
+        "hi": [
+          "गिरी पत्तियाँ हटाएँ; हल्की सुरक्षा के लिए नीम तेल छिड़काव।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Mancozeb about 2.5 g per litre or propiconazole about 1 ml per litre."
+        ],
+        "hi": [
+          "मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर या प्रोपिकोनाज़ोल लगभग 1 मि.ली. प्रति लीटर।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Balanced fertiliser; tolerant varieties; clean crop residue."
+        ],
+        "hi": [
+          "संतुलित खाद; सहनशील किस्में; फसल अवशेष की सफ़ाई।"
+        ]
+      }
+    },
+    "Cotton___wilt": {
+      "name": {
+        "en": "Wilt (Fusarium / Verticillium)",
+        "hi": "उकठा / म्लानि रोग (फ्यूज़ेरियम / वर्टिसिलियम)"
+      },
+      "severity": 3,
+      "followUpDays": 7,
+      "cause": {
+        "en": "Soil-borne fungi that block the plant's water vessels. They survive in the soil for years.",
+        "hi": "मिट्टी में रहने वाली फफूंद जो पौधे की पानी की नलियाँ बंद कर देती है। वर्षों तक मिट्टी में जीवित रहती है।"
+      },
+      "symptoms": {
+        "en": "Yellowing and wilting of leaves, often on one side; brown streaks inside the cut stem.",
+        "hi": "पत्तियों का पीला होकर मुरझाना, अक्सर एक तरफ से; कटे तने के अंदर भूरी धारियाँ।"
+      },
+      "actions": {
+        "en": [
+          "Remove wilted plants with their roots; do not move soil from this patch.",
+          "Check for waterlogging or root damage that looks similar."
+        ],
+        "hi": [
+          "मुरझाए पौधे जड़ समेत हटाएँ; इस हिस्से की मिट्टी दूसरी जगह न ले जाएँ।",
+          "जलभराव या जड़ क्षति जैसी मिलती-जुलती वजहें जाँचें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Trichoderma + well-rotted compost in the soil."
+        ],
+        "hi": [
+          "मिट्टी में ट्राइकोडर्मा + अच्छी सड़ी कम्पोस्ट।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Soil drench with carbendazim about 1 g per litre around affected plants, as per KVK advice."
+        ],
+        "hi": [
+          "प्रभावित पौधों के आसपास कार्बेन्डाज़िम लगभग 1 ग्राम प्रति लीटर का ड्रेंच (KVK की सलाह से)।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Wilt-resistant varieties; rotate for 2-3 years with cereals; good drainage."
+        ],
+        "hi": [
+          "उकठा-प्रतिरोधी किस्में; 2-3 साल अनाज वाली फसलों से चक्र; अच्छा जल निकास।"
+        ]
+      }
+    },
+    "Pepper___bacterial_spot": {
+      "name": {
+        "en": "Bacterial spot",
+        "hi": "जीवाणु धब्बा रोग"
+      },
+      "severity": 2,
+      "followUpDays": 5,
+      "cause": {
+        "en": "Xanthomonas bacteria carried on seed and spread by splashing water and wet-handling.",
+        "hi": "ज़ैंथोमोनास जीवाणु, जो बीज में रहते हैं और पानी की छींटों व गीले में काम करने से फैलते हैं।"
+      },
+      "symptoms": {
+        "en": "Small dark water-soaked leaf spots that turn brown with a yellow halo; leaves drop; scabby spots on fruit.",
+        "hi": "पत्तियों पर छोटे गहरे पानी जैसे धब्बे जो पीले घेरे के साथ भूरे हो जाते हैं; पत्तियाँ गिरती हैं; फलों पर पपड़ीदार धब्बे।"
+      },
+      "actions": {
+        "en": [
+          "Remove badly affected leaves; avoid working among wet plants.",
+          "Spray copper early."
+        ],
+        "hi": [
+          "अधिक प्रभावित पत्तियाँ हटाएँ; गीले पौधों के बीच काम न करें।",
+          "शुरू में कॉपर छिड़कें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Copper-based spray; clean tools."
+        ],
+        "hi": [
+          "कॉपर आधारित छिड़काव; औज़ार साफ़ रखें।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Copper oxychloride about 3 g per litre with streptocycline about 0.1 g per litre. Follow the label."
+        ],
+        "hi": [
+          "कॉपर ऑक्सीक्लोराइड लगभग 3 ग्राम प्रति लीटर और स्ट्रेप्टोसाइक्लिन लगभग 0.1 ग्राम प्रति लीटर। लेबल देखें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Disease-free seed or seedlings; 2-3 year rotation; drip irrigation."
+        ],
+        "hi": [
+          "रोग-मुक्त बीज या पौध; 2-3 साल फसल चक्र; ड्रिप सिंचाई।"
+        ]
+      }
+    },
+    "Grape___black_rot": {
+      "name": {
+        "en": "Black rot",
+        "hi": "काली सड़न (ब्लैक रॉट)"
+      },
+      "severity": 3,
+      "followUpDays": 5,
+      "cause": {
+        "en": "A fungus (Guignardia) that overwinters in mummified berries and spreads in warm, wet weather.",
+        "hi": "गिग्नार्डिया फफूंद, जो सूखे सिकुड़े दानों में बचती है और गर्म-गीले मौसम में फैलती है।"
+      },
+      "symptoms": {
+        "en": "Brown circular leaf spots with dark border; berries shrivel into hard black mummies.",
+        "hi": "पत्तियों पर गहरे किनारे वाले गोल भूरे धब्बे; दाने सिकुड़कर कठोर काले हो जाते हैं।"
+      },
+      "actions": {
+        "en": [
+          "Remove and destroy mummified berries and infected leaves/shoots.",
+          "Spray before flowering and after fruit set."
+        ],
+        "hi": [
+          "सूखे सिकुड़े दाने और संक्रमित पत्तियाँ/टहनियाँ हटाकर नष्ट करें।",
+          "फूल से पहले और फल बनने के बाद छिड़काव करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Bordeaux mixture 1% as a protectant; prune for airflow."
+        ],
+        "hi": [
+          "1% बोर्डो मिश्रण (सुरक्षात्मक); हवा के लिए छँटाई करें।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Mancozeb about 2.5 g per litre, or a triazole such as myclobutanil as per label."
+        ],
+        "hi": [
+          "मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर या लेबल अनुसार माइक्लोब्यूटानिल जैसी ट्राइएज़ोल दवा।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Clean vineyard of mummies after harvest; open canopy; avoid wetting leaves."
+        ],
+        "hi": [
+          "कटाई के बाद बाग से सूखे दाने साफ़ करें; खुली छत्र; पत्तियाँ गीली न करें।"
+        ]
+      }
+    },
+    "Grape___esca": {
+      "name": {
+        "en": "Esca (black measles)",
+        "hi": "एस्का (ब्लैक मीज़ल्स)"
+      },
+      "severity": 3,
+      "followUpDays": 14,
+      "cause": {
+        "en": "A complex of wood-rotting fungi entering through pruning wounds; it is a trunk disease with no cure.",
+        "hi": "लकड़ी सड़ाने वाली फफूंद का समूह, जो छँटाई के घावों से घुसता है; यह तने का रोग है जिसका इलाज नहीं।"
+      },
+      "symptoms": {
+        "en": "Tiger-stripe yellow-brown patches between veins, spotted berries, sudden vine collapse in summer.",
+        "hi": "शिराओं के बीच बाघ जैसी पीली-भूरी धारियाँ, दागी दाने, गर्मी में अचानक बेल का गिर जाना।"
+      },
+      "actions": {
+        "en": [
+          "Mark affected vines; cut out dead wood well below the damage and burn it.",
+          "Seal large pruning cuts."
+        ],
+        "hi": [
+          "प्रभावित बेलों पर निशान लगाएँ; मृत लकड़ी क्षति से काफ़ी नीचे से काटकर जलाएँ।",
+          "बड़े कटाव पर लेप लगाएँ।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Protect pruning wounds with a paste or Trichoderma-based wound sealant."
+        ],
+        "hi": [
+          "छँटाई के घावों पर पेस्ट या ट्राइकोडर्मा आधारित लेप लगाएँ।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "No effective spray cure; consult your horticulture officer."
+        ],
+        "hi": [
+          "कोई कारगर छिड़काव नहीं; बागवानी अधिकारी से सलाह लें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Prune in dry weather; disinfect pruning tools between vines."
+        ],
+        "hi": [
+          "सूखे मौसम में छँटाई; हर बेल के बाद औज़ार कीटाणुरहित करें।"
+        ]
+      }
+    },
+    "Apple___scab": {
+      "name": {
+        "en": "Apple scab",
+        "hi": "सेब का स्कैब (पपड़ी रोग)"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "spreadsFast": true,
+      "cause": {
+        "en": "Venturia fungus that overwinters in fallen leaves and spreads in cool, wet spring weather.",
+        "hi": "वेंचुरिया फफूंद, जो गिरी पत्तियों में बचती है और वसंत के ठंडे-गीले मौसम में फैलती है।"
+      },
+      "symptoms": {
+        "en": "Olive-green to brown velvety spots on leaves; scabby, cracked patches on fruit.",
+        "hi": "पत्तियों पर जैतूनी-हरे से भूरे मखमली धब्बे; फलों पर पपड़ीदार, फटे धब्बे।"
+      },
+      "actions": {
+        "en": [
+          "Rake and destroy fallen leaves.",
+          "Spray at green-tip / pink-bud and after rain, following the local schedule."
+        ],
+        "hi": [
+          "गिरी पत्तियाँ इकट्ठा कर नष्ट करें।",
+          "ग्रीन-टिप / पिंक-बड अवस्था और बारिश के बाद स्थानीय कार्यक्रम अनुसार छिड़काव करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Lime-sulphur or copper sprays in dormant season as advised locally."
+        ],
+        "hi": [
+          "सुषुप्तावस्था में स्थानीय सलाह अनुसार चूना-गंधक या कॉपर छिड़काव।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Mancozeb about 2.5 g per litre or captan about 2 g per litre. Follow the label and pre-harvest interval."
+        ],
+        "hi": [
+          "मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर या कैप्टान लगभग 2 ग्राम प्रति लीटर। लेबल और कटाई-पूर्व अंतराल का पालन करें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Resistant varieties, pruning for airflow, leaf-litter clean-up."
+        ],
+        "hi": [
+          "प्रतिरोधी किस्में, हवा के लिए छँटाई, पत्ती-कचरे की सफ़ाई।"
+        ]
+      }
+    },
+    "Apple___black_rot": {
+      "name": {
+        "en": "Black rot (frogeye leaf spot)",
+        "hi": "काली सड़न (फ्रॉगआई पत्ती धब्बा)"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "cause": {
+        "en": "Fungus (Botryosphaeria) living in dead wood, cankers and mummified fruit.",
+        "hi": "बोट्रायोस्फेरिया फफूंद, जो मृत लकड़ी, कैंकर और सूखे फलों में रहती है।"
+      },
+      "symptoms": {
+        "en": "Purple-ringed brown 'frogeye' leaf spots; rotting fruit that turns black and hard.",
+        "hi": "बैंगनी घेरे वाले भूरे 'मेंढक-आँख' धब्बे; फल सड़कर काले और कठोर हो जाते हैं।"
+      },
+      "actions": {
+        "en": [
+          "Prune out cankers and dead wood and remove mummified fruit.",
+          "Spray a protectant fungicide during the season."
+        ],
+        "hi": [
+          "कैंकर और मृत लकड़ी छाँटें, सूखे फल हटाएँ।",
+          "मौसम में सुरक्षात्मक फफूंदनाशी छिड़कें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Sanitation and pruning are the main tools; copper in dormant season."
+        ],
+        "hi": [
+          "सफ़ाई और छँटाई मुख्य उपाय; सुषुप्तावस्था में कॉपर।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Captan about 2 g per litre or mancozeb about 2.5 g per litre per the label."
+        ],
+        "hi": [
+          "लेबल अनुसार कैप्टान लगभग 2 ग्राम प्रति लीटर या मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Avoid tree wounds and stress; remove dead branches."
+        ],
+        "hi": [
+          "पेड़ में घाव और तनाव से बचें; सूखी टहनियाँ हटाएँ।"
+        ]
+      }
+    },
+    "Apple___cedar_apple_rust": {
+      "name": {
+        "en": "Cedar apple rust",
+        "hi": "सेब का केडार रस्ट (रतुआ)"
+      },
+      "severity": 2,
+      "followUpDays": 10,
+      "spreadsFast": false,
+      "cause": {
+        "en": "Gymnosporangium fungus that needs both apple and juniper/cedar trees. Spores spread in spring rain.",
+        "hi": "जिम्नोस्पोरेन्जियम फफूंद, जिसे सेब और जुनिपर/देवदार दोनों पेड़ चाहिए। बीजाणु वसंत की बारिश में फैलते हैं।"
+      },
+      "symptoms": {
+        "en": "Bright yellow-orange spots on the upper leaf surface, later with small tube-like growths underneath.",
+        "hi": "पत्ती की ऊपरी सतह पर चमकीले पीले-नारंगी धब्बे, बाद में नीचे छोटी नलिकाओं जैसी संरचनाएँ।"
+      },
+      "actions": {
+        "en": [
+          "Remove and destroy badly spotted leaves.",
+          "Remove nearby juniper/cedar with galls if you can.",
+          "Start protective sprays from pink-bud stage, as per the local schedule."
+        ],
+        "hi": [
+          "ज़्यादा धब्बे वाली पत्तियाँ तोड़कर नष्ट करें।",
+          "पास के गाँठ वाले जुनिपर/देवदार हटाएँ, यदि संभव हो।",
+          "पिंक-बड अवस्था से स्थानीय कार्यक्रम अनुसार सुरक्षात्मक छिड़काव शुरू करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Wettable sulphur sprays are a low-cost option in cool weather, as locally advised."
+        ],
+        "hi": [
+          "ठंडे मौसम में घुलनशील गंधक छिड़काव एक सस्ता विकल्प है, स्थानीय सलाह अनुसार।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Mancozeb about 2.5 g per litre. Follow the label and pre-harvest interval."
+        ],
+        "hi": [
+          "मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर। लेबल और कटाई-पूर्व अंतराल का पालन करें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Plant resistant varieties and keep juniper/cedar away from the orchard.",
+          "Prune for airflow."
+        ],
+        "hi": [
+          "प्रतिरोधी किस्में लगाएँ और बाग से जुनिपर/देवदार दूर रखें।",
+          "हवा के लिए छँटाई करें।"
+        ]
+      },
+      "keywords": [
+        "cedar",
+        "rust",
+        "रतुआ",
+        "केडार"
+      ]
+    },
+    "Cherry___powdery_mildew": {
+      "name": {
+        "en": "Powdery mildew",
+        "hi": "चेरी का चूर्णिल आसिता (सफेद चूर्णी रोग)"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "spreadsFast": true,
+      "cause": {
+        "en": "Podosphaera fungus that thrives in warm days, cool nights and crowded, shaded canopies.",
+        "hi": "पोडोस्फेरा फफूंद, जो गर्म दिन, ठंडी रात और घनी, छायादार शाखाओं में पनपती है।"
+      },
+      "symptoms": {
+        "en": "White powdery patches on young leaves and shoots; leaves may curl or twist.",
+        "hi": "नई पत्तियों और टहनियों पर सफेद चूर्णी धब्बे; पत्तियाँ मुड़ या सिकुड़ सकती हैं।"
+      },
+      "actions": {
+        "en": [
+          "Prune out infected shoots and open the canopy.",
+          "Spray at the first white patches; repeat as the label says."
+        ],
+        "hi": [
+          "संक्रमित टहनियाँ काटें और छत्र खोलें।",
+          "पहले सफेद धब्बे दिखते ही छिड़काव करें; लेबल अनुसार दोहराएँ।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Neem oil about 3 ml per litre with a little soap, or diluted milk spray (1 part milk to 9 parts water)."
+        ],
+        "hi": [
+          "नीम तेल लगभग 3 मिली प्रति लीटर थोड़े साबुन के साथ, या पतला दूध (1 भाग दूध, 9 भाग पानी) छिड़कें।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Wettable sulphur about 2 to 3 g per litre, or hexaconazole about 1 ml per litre. Follow the label."
+        ],
+        "hi": [
+          "घुलनशील गंधक लगभग 2 से 3 ग्राम प्रति लीटर, या हेक्साकोनाज़ोल लगभग 1 मिली प्रति लीटर। लेबल का पालन करें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Avoid excess nitrogen and crowded planting.",
+          "Prune every year for airflow and light."
+        ],
+        "hi": [
+          "ज़्यादा नाइट्रोजन और घनी रोपाई से बचें।",
+          "हवा और धूप के लिए हर साल छँटाई करें।"
+        ]
+      },
+      "keywords": [
+        "powdery",
+        "mildew",
+        "white powder",
+        "चूर्णिल",
+        "सफेद चूर्ण",
+        "खस्ता"
+      ]
+    },
+    "Citrus___citrus_greening": {
+      "name": {
+        "en": "Citrus greening (HLB)",
+        "hi": "सिट्रस ग्रीनिंग (एचएलबी / हुआंगलोंगबिंग)"
+      },
+      "severity": 3,
+      "followUpDays": 14,
+      "spreadsFast": true,
+      "cause": {
+        "en": "A bacterial disease spread by the citrus psylla insect and by infected planting material. There is no cure.",
+        "hi": "एक जीवाणु रोग, जो सिट्रस सिल्ला कीट और संक्रमित पौध सामग्री से फैलता है। इसका कोई इलाज नहीं है।"
+      },
+      "symptoms": {
+        "en": "Yellow blotchy patches that do not match across the midrib, yellow shoots, small lopsided bitter fruit, twig dieback.",
+        "hi": "मध्य शिरा के दोनों ओर बेमेल पीले धब्बे, पीली टहनियाँ, छोटे टेढ़े कड़वे फल, टहनियों का सूखना।"
+      },
+      "actions": {
+        "en": [
+          "Contact your KVK or horticulture officer now to confirm the disease.",
+          "Confirmed infected trees are usually removed and destroyed as officers advise, to protect healthy trees.",
+          "Control the psylla insect on new flushes."
+        ],
+        "hi": [
+          "रोग की पुष्टि के लिए अभी KVK या बागवानी अधिकारी से संपर्क करें।",
+          "पुष्टि होने पर स्वस्थ पेड़ बचाने के लिए अधिकारियों की सलाह से संक्रमित पेड़ आमतौर पर हटाकर नष्ट किए जाते हैं।",
+          "नई कोपलों पर सिल्ला कीट का नियंत्रण करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Neem oil about 3 ml per litre on new flushes to reduce psylla."
+        ],
+        "hi": [
+          "सिल्ला घटाने के लिए नई कोपलों पर नीम तेल लगभग 3 मिली प्रति लीटर।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Imidacloprid about 0.3 ml per litre against psylla, only as the label and local advisory allow. This does not cure the tree."
+        ],
+        "hi": [
+          "सिल्ला के विरुद्ध इमिडाक्लोप्रिड लगभग 0.3 मिली प्रति लीटर, केवल लेबल और स्थानीय सलाह अनुसार। इससे पेड़ ठीक नहीं होता।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Plant only certified disease-free saplings.",
+          "Scout new flushes for psylla every week.",
+          "Do not move cuttings from infected orchards."
+        ],
+        "hi": [
+          "केवल प्रमाणित रोगमुक्त पौधे लगाएँ।",
+          "हर हफ्ते नई कोपलों में सिल्ला की जाँच करें।",
+          "संक्रमित बाग से कलमें न ले जाएँ।"
+        ]
+      },
+      "keywords": [
+        "greening",
+        "hlb",
+        "huanglongbing",
+        "psylla",
+        "हरापन",
+        "सिल्ला"
+      ]
+    },
+    "Grape___leaf_blight": {
+      "name": {
+        "en": "Leaf blight (Isariopsis leaf spot)",
+        "hi": "अंगूर का पर्ण झुलसा (इसारियोप्सिस धब्बा)"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "spreadsFast": true,
+      "cause": {
+        "en": "Fungus that spreads in humid, rainy weather and survives on fallen leaves.",
+        "hi": "फफूंद, जो नमी और बारिश में फैलती है और गिरी पत्तियों पर बची रहती है।"
+      },
+      "symptoms": {
+        "en": "Dark brown, angular dead patches on leaves, often with yellow edges; severe cases drop leaves early.",
+        "hi": "पत्तियों पर गहरे भूरे, कोणीय सूखे धब्बे, अक्सर पीले किनारों के साथ; ज़्यादा होने पर पत्तियाँ जल्दी गिरती हैं।"
+      },
+      "actions": {
+        "en": [
+          "Remove and burn badly affected leaves.",
+          "Spray at the first spots and repeat after rain."
+        ],
+        "hi": [
+          "ज़्यादा प्रभावित पत्तियाँ हटाकर जला दें।",
+          "पहले धब्बे दिखते ही छिड़काव करें और बारिश के बाद दोहराएँ।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Bordeaux mixture 1 percent in the dormant season as locally advised."
+        ],
+        "hi": [
+          "सुषुप्तावस्था में स्थानीय सलाह अनुसार 1 प्रतिशत बोर्डो मिश्रण।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Mancozeb about 2.5 g per litre or copper oxychloride about 3 g per litre. Follow the label and pre-harvest interval."
+        ],
+        "hi": [
+          "मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर या कॉपर ऑक्सीक्लोराइड लगभग 3 ग्राम प्रति लीटर। लेबल और कटाई-पूर्व अंतराल का पालन करें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Train and prune vines for airflow.",
+          "Clear fallen leaves after pruning."
+        ],
+        "hi": [
+          "हवा के लिए बेलों की ट्रेनिंग और छँटाई करें।",
+          "छँटाई के बाद गिरी पत्तियाँ साफ करें।"
+        ]
+      },
+      "keywords": [
+        "isariopsis",
+        "leaf blight",
+        "blight",
+        "झुलसा"
+      ]
+    },
+    "Peach___bacterial_spot": {
+      "name": {
+        "en": "Bacterial spot",
+        "hi": "आड़ू का जीवाणु धब्बा रोग"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "spreadsFast": true,
+      "cause": {
+        "en": "Xanthomonas bacteria that spread in wind-driven rain and survive in infected twigs.",
+        "hi": "ज़ैन्थोमोनास जीवाणु, जो हवा के साथ बारिश में फैलते हैं और संक्रमित टहनियों में बचे रहते हैं।"
+      },
+      "symptoms": {
+        "en": "Small dark, water-soaked spots on leaves that dry and fall out, leaving a shot-hole look; spots on fruit.",
+        "hi": "पत्तियों पर छोटे गहरे, पानीदार धब्बे जो सूखकर गिर जाते हैं और छलनी जैसे छेद बनते हैं; फलों पर भी धब्बे।"
+      },
+      "actions": {
+        "en": [
+          "Prune and destroy infected twigs in dry weather.",
+          "Avoid overhead irrigation."
+        ],
+        "hi": [
+          "सूखे मौसम में संक्रमित टहनियाँ काटकर नष्ट करें।",
+          "ऊपर से सिंचाई न करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Keep trees well fed and not over-watered; weak trees get it worse."
+        ],
+        "hi": [
+          "पेड़ों को संतुलित खाद दें और ज़्यादा पानी न दें; कमज़ोर पेड़ ज़्यादा प्रभावित होते हैं।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Copper oxychloride about 3 g per litre at leaf fall and early spring as locally advised. Follow the label."
+        ],
+        "hi": [
+          "पत्ती झड़ने और शुरुआती वसंत में स्थानीय सलाह अनुसार कॉपर ऑक्सीक्लोराइड लगभग 3 ग्राम प्रति लीटर। लेबल का पालन करें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Choose tolerant varieties and certified plants.",
+          "Keep a windbreak and good airflow."
+        ],
+        "hi": [
+          "सहनशील किस्में और प्रमाणित पौधे चुनें।",
+          "हवा रोकने वाली बाड़ और अच्छा हवा-प्रवाह रखें।"
+        ]
+      },
+      "keywords": [
+        "bacterial",
+        "shot hole",
+        "spot",
+        "जीवाणु",
+        "छेद"
+      ]
+    },
+    "Rice___bacterial_panicle_blight": {
+      "name": {
+        "en": "Bacterial panicle blight",
+        "hi": "धान का जीवाणु पैनिकल झुलसा"
+      },
+      "severity": 3,
+      "followUpDays": 7,
+      "spreadsFast": false,
+      "cause": {
+        "en": "Burkholderia bacteria carried in seed; hot nights and high humidity during flowering make it worse.",
+        "hi": "बर्कहोल्डेरिया जीवाणु, जो बीज से आते हैं; फूल आते समय गर्म रातें और ज़्यादा नमी इसे बढ़ाती हैं।"
+      },
+      "symptoms": {
+        "en": "Grains turn pale or straw-coloured and stay empty; panicles stand upright; leaf sheaths may show brown streaks.",
+        "hi": "दाने पीले या भूसे जैसे रंग के होकर खाली रहते हैं; बालियाँ सीधी खड़ी रहती हैं; पर्णच्छद पर भूरी धारियाँ दिख सकती हैं।"
+      },
+      "actions": {
+        "en": [
+          "There is no sure cure at the flowering stage: show a sample to your KVK quickly.",
+          "Avoid extra nitrogen now and keep the field drained of standing water."
+        ],
+        "hi": [
+          "फूल की अवस्था में पक्का इलाज नहीं है: जल्दी KVK को नमूना दिखाएँ।",
+          "अब अतिरिक्त नाइट्रोजन न दें और खेत से रुका पानी निकालें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Treat the next crop's seed with Pseudomonas fluorescens about 10 g per kg of seed."
+        ],
+        "hi": [
+          "अगली फसल के बीज को स्यूडोमोनास फ्लोरेसेंस लगभग 10 ग्राम प्रति किलो बीज से उपचारित करें।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "No reliable chemical cure. Ask your KVK before spraying anything."
+        ],
+        "hi": [
+          "कोई पक्का रासायनिक इलाज नहीं। कुछ भी छिड़कने से पहले KVK से पूछें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Use clean, certified seed and do not save seed from affected fields.",
+          "Avoid late, heavy nitrogen and very dense planting."
+        ],
+        "hi": [
+          "साफ, प्रमाणित बीज लें और प्रभावित खेत का बीज न रखें।",
+          "देर से ज़्यादा नाइट्रोजन और बहुत घनी रोपाई से बचें।"
+        ]
+      },
+      "keywords": [
+        "panicle",
+        "grain",
+        "sterility",
+        "बाली",
+        "पैनिकल",
+        "दाना"
+      ]
+    },
+    "Rice___leaf_smut": {
+      "name": {
+        "en": "Leaf smut",
+        "hi": "धान का पर्ण कंडुआ (लीफ स्मट)"
+      },
+      "severity": 1,
+      "followUpDays": 10,
+      "spreadsFast": false,
+      "cause": {
+        "en": "Entyloma fungus that spreads in humid weather, especially where nitrogen is high and crops are old.",
+        "hi": "एंटिलोमा फफूंद, जो नमी में फैलती है, खासकर ज़्यादा नाइट्रोजन और पुरानी फसल में।"
+      },
+      "symptoms": {
+        "en": "Tiny raised black, angular spots on leaves; heavily spotted leaves dry and turn yellow.",
+        "hi": "पत्तियों पर छोटे उभरे काले कोणीय धब्बे; बहुत धब्बों वाली पत्तियाँ सूखकर पीली हो जाती हैं।"
+      },
+      "actions": {
+        "en": [
+          "Usually minor: remove badly spotted leaves and watch the field.",
+          "Cut back on extra nitrogen."
+        ],
+        "hi": [
+          "आमतौर पर मामूली: ज़्यादा धब्बे वाली पत्तियाँ हटाएँ और खेत पर नज़र रखें।",
+          "अतिरिक्त नाइट्रोजन कम करें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Pseudomonas fluorescens spray about 10 g per litre as a low-cost option."
+        ],
+        "hi": [
+          "कम लागत विकल्प के रूप में स्यूडोमोनास फ्लोरेसेंस लगभग 10 ग्राम प्रति लीटर छिड़कें।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Propiconazole about 1 ml per litre only if spread is heavy. Follow the label."
+        ],
+        "hi": [
+          "फैलाव ज़्यादा हो तभी प्रोपिकोनाज़ोल लगभग 1 मिली प्रति लीटर। लेबल का पालन करें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Balanced fertiliser and clean bunds.",
+          "Burn or bury stubble after harvest."
+        ],
+        "hi": [
+          "संतुलित खाद और साफ मेड़।",
+          "कटाई के बाद ठूँठ जलाएँ या दबा दें।"
+        ]
+      },
+      "keywords": [
+        "smut",
+        "black spots",
+        "कंडुआ",
+        "स्मट",
+        "काले धब्बे"
+      ]
+    },
+    "Squash___powdery_mildew": {
+      "name": {
+        "en": "Powdery mildew",
+        "hi": "कद्दू / स्क्वैश का चूर्णिल आसिता"
+      },
+      "severity": 2,
+      "followUpDays": 7,
+      "spreadsFast": true,
+      "cause": {
+        "en": "Podosphaera fungus that spreads in warm, dry days with humid nights, even without rain.",
+        "hi": "पोडोस्फेरा फफूंद, जो गर्म सूखे दिन और नम रातों में बिना बारिश के भी फैलती है।"
+      },
+      "symptoms": {
+        "en": "White talc-like powder on both sides of leaves and on stems; leaves yellow, then dry.",
+        "hi": "पत्तियों के दोनों ओर और तनों पर सफेद चूर्ण जैसी परत; पत्तियाँ पीली होकर सूख जाती हैं।"
+      },
+      "actions": {
+        "en": [
+          "Remove the worst leaves and spray at the first white patches.",
+          "Water at the base in the morning, not on the leaves."
+        ],
+        "hi": [
+          "सबसे ज़्यादा प्रभावित पत्तियाँ हटाएँ और पहले सफेद धब्बे दिखते ही छिड़काव करें।",
+          "पानी जड़ों में सुबह दें, पत्तियों पर नहीं।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Diluted milk spray (1 part milk to 9 parts water) or neem oil about 3 ml per litre, weekly."
+        ],
+        "hi": [
+          "पतला दूध (1 भाग दूध, 9 भाग पानी) या नीम तेल लगभग 3 मिली प्रति लीटर, हर हफ्ते।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Hexaconazole about 1 ml per litre. Do not use sulphur on squash or gourds in hot weather: cucurbits can burn. Follow the label."
+        ],
+        "hi": [
+          "हेक्साकोनाज़ोल लगभग 1 मिली प्रति लीटर। गर्म मौसम में कद्दू वर्ग पर गंधक न डालें: पत्तियाँ जल सकती हैं। लेबल का पालन करें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Give plants room for airflow.",
+          "Choose tolerant varieties."
+        ],
+        "hi": [
+          "पौधों के बीच हवा के लिए जगह रखें।",
+          "सहनशील किस्में चुनें।"
+        ]
+      },
+      "keywords": [
+        "powdery",
+        "mildew",
+        "white powder",
+        "चूर्णिल",
+        "सफेद चूर्ण"
+      ]
+    },
+    "Strawberry___leaf_scorch": {
+      "name": {
+        "en": "Leaf scorch",
+        "hi": "स्ट्रॉबेरी का पर्ण दाह (लीफ स्कॉर्च)"
+      },
+      "severity": 2,
+      "followUpDays": 10,
+      "spreadsFast": false,
+      "cause": {
+        "en": "Diplocarpon fungus that spreads by splashing water and survives on old infected leaves.",
+        "hi": "डिप्लोकार्पन फफूंद, जो पानी की छींटों से फैलती है और पुरानी संक्रमित पत्तियों पर बची रहती है।"
+      },
+      "symptoms": {
+        "en": "Many small dark purple spots that merge, leaving the leaf looking scorched and brown at the edges.",
+        "hi": "कई छोटे गहरे बैंगनी धब्बे जो मिल जाते हैं, और पत्ती किनारों से झुलसी-भूरी दिखती है।"
+      },
+      "actions": {
+        "en": [
+          "Remove and destroy old and spotted leaves.",
+          "Switch to drip or base watering."
+        ],
+        "hi": [
+          "पुरानी और धब्बेदार पत्तियाँ हटाकर नष्ट करें।",
+          "ड्रिप या जड़ों में पानी दें।"
+        ]
+      },
+      "organic": {
+        "en": [
+          "Remove runners and weeds that crowd the bed; use clean mulch."
+        ],
+        "hi": [
+          "बेड में भीड़ करने वाले रनर और खरपतवार हटाएँ; साफ मल्च इस्तेमाल करें।"
+        ]
+      },
+      "chemical": {
+        "en": [
+          "Captan about 2 g per litre or mancozeb about 2.5 g per litre. Follow the label and pre-harvest interval."
+        ],
+        "hi": [
+          "कैप्टान लगभग 2 ग्राम प्रति लीटर या मैंकोज़ेब लगभग 2.5 ग्राम प्रति लीटर। लेबल और कटाई-पूर्व अंतराल का पालन करें।"
+        ]
+      },
+      "prevent": {
+        "en": [
+          "Use disease-free plants and allow spacing for airflow.",
+          "Renovate beds after harvest."
+        ],
+        "hi": [
+          "रोगमुक्त पौधे लें और हवा के लिए दूरी रखें।",
+          "कटाई के बाद बेड की सफाई करें।"
+        ]
+      },
+      "keywords": [
+        "scorch",
+        "purple spots",
+        "झुलस",
+        "बैंगनी धब्बे"
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+[versions]
+agp = "8.9.1"
+kotlin = "2.1.20"
+composeBom = "2025.04.01"
+activityCompose = "1.10.1"
+navigation = "2.8.9"
+lifecycle = "2.8.7"
+camerax = "1.4.2"
+litert = "1.4.0"
+mlkitDevanagari = "16.0.1"
+workmanager = "2.10.0"
+gson = "2.11.0"
+coroutines = "1.10.1"
+junit = "4.13.2"
+
+[libraries]
+compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+compose-ui = { module = "androidx.compose.ui:ui" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+compose-material3 = { module = "androidx.compose.material3:material3" }
+compose-icons = { module = "androidx.compose.material:material-icons-extended" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycle" }
+androidx-camera-core = { module = "androidx.camera:camera-core", version.ref = "camerax" }
+androidx-camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "camerax" }
+androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "camerax" }
+androidx-camera-view = { module = "androidx.camera:camera-view", version.ref = "camerax" }
+litert = { module = "com.google.ai.edge.litert:litert", version.ref = "litert" }
+litert-gpu = { module = "com.google.ai.edge.litert:litert-gpu", version.ref = "litert" }
+mlkit-text-devanagari = { module = "com.google.mlkit:text-recognition-devanagari", version.ref = "mlkitDevanagari" }
+androidx-work = { module = "androidx.work:work-runtime-ktx", version.ref = "workmanager" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+junit = { module = "junit:junit", version.ref = "junit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
